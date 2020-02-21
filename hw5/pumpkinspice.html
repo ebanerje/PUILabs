@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device=width">
+    	 <meta name="description" content="Bun Bun Bake Shop Website">
+    	 <meta name="keywords" content="bakery, buns, bun bun bake shop">
+    	 <meta name="author" content="Eshita Banerjee">
+    	<title>Bun Bun Bake Shop | Pumpkin Spice</title>
+    	<link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+    	<header>
+    		<div class="container">
+    			<div id="branding">
+    				<h1><span class="current"><a href="index.html">Bun Bun Bake Shop</a></span></h1>
+    			</div>
+    			<nav>
+    				<ul>
+    					<li><a href="contact.html">Contact Us</a></li>
+    					<li><a href="about.html">About</a></li>
+    					<li><a href="products.html">Products</a></li>
+                        <li><img src = "img/search.png" alt = "search"></li>
+                        <li><img src ="img/cart.png" alt = "cart"></li>
+    				</ul>
+    			</nav>
+    		</div>
+    	</header>
+
+        <section>
+            <div class = "container">
+                <img class="productsPageImg" src="img/productsPage.jpg" alt="pumpkinspice">
+                <h1 class="productTitle">Pumpkin Spice</h1>
+                <p class="productDescription">Cinnamon buns get a fall makeover in this nutty and spiced version.</p>
+                <p class="productDescription">Price: $3.75 per bun.</p>
+
+                <label class= "qAndG" for="quantity">QUANTITY</label>
+                <select class="dropdowns" id="quantity">
+                  <option value="1">1 Roll</option>
+                  <option value="3">3 Rolls</option>
+                  <option value="6">6 Rolls</option>
+                  <option value="12">12 Rolls</option>
+                </select>
+
+                <label class= "qAndG" for="glazing">GLAZING</label>
+                <select class="dropdowns" id="glazing">
+                  <option value="none">None</option>
+                  <option value="sugarMilk">Sugar-Milk</option>
+                  <option value="vanillaMilk">Vanilla-Milk</option>
+                  <option value="doubleChocolate">Double-Chocolate</option>
+                </select>
+
+                <div class = "wrap">
+                    <a id="addtocart" href = "">ADD TO CART</a>
+                </div>
+
+            </div>
+        </section>
+
+        
+        <footer>
+            <p>Bun Bun Bake Shop, Copyright &copy; 2020</p>
+        </footer>
+    </body>
+</html>
