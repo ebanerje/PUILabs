@@ -244,6 +244,35 @@ img.roundedCorners {
 	color: #FFFFFF;
 	text-decoration: none;
 }
+/*About Page*/
+.aboutTitle {
+	text-transform: uppercase;
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: 400;
+	margin-left: 700px;
+}
+
+.aboutImg {
+	margin: 30px 40px 20px 50px;
+	float:left;
+	border-radius: 30px;
+	margin-top: -75px;
+}
+
+.aboutDescription {
+	width: 1270px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 700px;
+	margin-right: 100;
+	width:500px;
+	word-wrap: break-word;
+}
+
+
+
 /*Footer*/
 footer{
 	position: absolute;
